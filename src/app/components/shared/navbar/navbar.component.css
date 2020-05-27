@@ -1,0 +1,35 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  min-width: 100%;
+  min-height: 695px;
+}
+
+.navbar {
+  width: 100%;
+  background: yellow;
+}
+
+.navbar li {
+  list-style-type: none;
+  display: flex;
+  width: 50%;
+  height: 6vh;
+  justify-content: center;
+}
+
+li {
+  cursor: pointer;
+}
+
+.navbar li:nth-child(1) {
+  justify-content: flex-end;
+  padding-right: 50px;
+}
+
+.navbar li:nth-child(2) {
+  justify-content: flex-start;
+  padding-left: 50px;
+}
