@@ -1,0 +1,10 @@
+<h1 class="text-center">Comunicacion entre componentes</h1>
+
+  <input type="text" class="form-control mb-3" #input1 (keyup)="getValorPadre(input1.value)" />
+
+  <app-hijo1 [valorPadre_Hijo]="valorPadre" (EnergiaPersonas)="reunirEnergia($event)">
+
+  </app-hijo1>
+
+  <img [src]="genkidamaImg" alt="" />
+

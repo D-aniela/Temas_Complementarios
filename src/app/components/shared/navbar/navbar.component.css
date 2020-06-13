@@ -15,21 +15,13 @@ body {
 .navbar li {
   list-style-type: none;
   display: flex;
-  width: 50%;
+  width: 25%;
   height: 6vh;
   justify-content: center;
+  padding-left: 50px;
+  padding-right: 50px;
 }
 
 li {
   cursor: pointer;
-}
-
-.navbar li:nth-child(1) {
-  justify-content: flex-end;
-  padding-right: 50px;
-}
-
-.navbar li:nth-child(2) {
-  justify-content: flex-start;
-  padding-left: 50px;
 }
